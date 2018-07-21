@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
 
             var tx =fManager.beginTransaction()
             tx.replace(R.id.frag,HomeFrag())
+            tx.addToBackStack(null)
             tx.commit()
         }
 
@@ -56,5 +57,7 @@ class MainActivity : AppCompatActivity() {
             tx.commit()
 
         }
+
+
     }
 }
