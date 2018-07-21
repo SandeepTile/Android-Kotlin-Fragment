@@ -3,12 +3,12 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2c8c4f">
+    android:background="#8b1094">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Home Fragment"
+        android:text="Purple Fragment"
         android:textSize="30dp"
         android:textStyle="bold"
         android:layout_centerHorizontal="true"
