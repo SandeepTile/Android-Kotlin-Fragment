@@ -13,6 +13,11 @@ class MainActivity : AppCompatActivity() {
 
         var fManager=supportFragmentManager
 
+        var tx =fManager.beginTransaction()
+        tx.add(R.id.frag,HomeFrag())
+        tx.addToBackStack(null)
+        tx.commit()
+
         homebtn.setOnClickListener{
 
             var tx =fManager.beginTransaction()

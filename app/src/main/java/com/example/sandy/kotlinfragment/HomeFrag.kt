@@ -15,6 +15,18 @@ class HomeFrag:Fragment()
 
         var v=inflater.inflate(R.layout.homefrag,container,false)
 
+        v.last.setOnClickListener({
+
+            var fManager=activity!!.supportFragmentManager
+
+            var tx =fManager.beginTransaction()
+            tx.add(R.id.frag,SkyblueFrag())
+            tx.addToBackStack(null)
+            tx.commit()
+
+
+        })
+
 
         return v
     }

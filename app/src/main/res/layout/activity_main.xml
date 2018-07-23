@@ -18,43 +18,49 @@
                 android:id="@+id/homebtn"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:background="#545760"
                 android:text="Home" />
 
             <Button
                 android:id="@+id/bluebtn"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:background="#2c328c"
                 android:text="Blue" />
 
             <Button
                 android:id="@+id/redbtn"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:background="#df000f"
                 android:text="Red" />
 
             <Button
                 android:id="@+id/yellowbtn"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:background="#efef05"
                 android:text="Yellow" />
 
             <Button
                 android:id="@+id/purplebtn"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:background="#8b1094"
                 android:text="purple" />
 
             <Button
                 android:id="@+id/skybtn"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:background="#0ed2e4"
                 android:text="sky blue" />
 
         </LinearLayout>
 
     </HorizontalScrollView>
 
-    <fragment
+    <FrameLayout
         android:id="@+id/frag"
         android:layout_width="match_parent"
         android:layout_height="0dp"
